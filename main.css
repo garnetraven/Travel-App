@@ -4,14 +4,40 @@ body {
 nav {
     background-color: lightgreen;
     text-align: center;
+    width: 100%;
+    width: 100vw;
+    height: 50px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
 }
 main {
     background-color: lightgrey;
+    width: 100%;
+    width: 100vw;
+    height: 500px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+main .container-main {
+    padding-top: 20px;
+}
+main p {
+    font-size: large;
+    padding-left: 75px;
+}
+main img {
+    padding-top: 15px ;
 }
 footer {
     background-color: gainsboro;
+    width: 100%;
+    width: 100vw;
+    height: 50px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
 }
 nav ul {
+    padding-top: 10px;
     list-style-type: none;
     overflow: hidden;
 }
@@ -24,12 +50,23 @@ nav ul li a {
 }
 nav p {
     position: absolute; 
-    top: 0px;
+    top: 10px;
     right: 10px;
 }
 footer p {
     text-align: center;
+    padding-top: 10px;
 }
 h1 {
     text-align: center;
+    padding-top: 15px;
+}
+h1 a {
+    text-decoration: none;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;
 }
