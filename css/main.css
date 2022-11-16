@@ -25,8 +25,10 @@ main p {
     font-size: large;
     padding-left: 75px;
 }
-main img {
+main img .center {
     padding-top: 15px ;
+    width: 100%;
+    height: auto;
 }
 footer {
     background-color: gainsboro;
@@ -68,5 +70,7 @@ h1 a {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 65%;
+    padding-top: 15px ;
+    width: 400px;
+    height: auto;
 }
